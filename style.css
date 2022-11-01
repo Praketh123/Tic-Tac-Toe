@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainbody{
+    background-image: linear-gradient(rgba(0,0,0,1), rgb(119, 43, 186), rgba(0,0,0,1));
+    position: relative;
+    background-position: center;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 1px solid white;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: Cursive;
+    text-align: center;
+    /*padding-top: 100px;*/
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 200px;
+    margin: auto;
+    
+}
+#mainheading{
+    font-size: 65px;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+#statusText{
+    margin-left: 40px;
+    color: rgb(47, 225, 24);
+}
+#restartbutton{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#restartbutton:hover{
+    background: rgb(55, 228, 55);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
